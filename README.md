@@ -6,6 +6,10 @@
 [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=yundori97)](https://solved.ac/yundori97)
 
 ### 📚 백준
+### 🥉 Bronze
+| 문제번호 | 링크 |
+| ----- | ----- |
+|4101. 크냐？|[링크](./%EB%B0%B1%EC%A4%80/Bronze/4101.%E2%80%85%ED%81%AC%EB%83%90%EF%BC%9F/%ED%81%AC%EB%83%90%EF%BC%9F.java)|
 ### 🥇 Gold
 | 문제번호 | 링크 |
 | ----- | ----- |
