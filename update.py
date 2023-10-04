@@ -42,17 +42,17 @@ def main():
             
         if directory not in directories:
             if directory in ["백준", "프로그래머스"]:
+                content += "### 📚 {}\n".format(directory)
+            else:
                 match directory:
                     case "Bronze":
-                        content += "## 🥉 {}\n".format(directory)
+                        content += "### 🥉 {}\n".format(directory)
                     case "Silver":
-                        content += "## 🥈 {}\n".format(directory)
+                        content += "### 🥈 {}\n".format(directory)
                     case "Gold":
-                        content += "## 🥇 {}\n".format(directory)
+                        content += "### 🥇 {}\n".format(directory)
                     case _:
-                        content += "## 🙇‍♀️ {}\n".format(directory)
-            else:
-                content += "### 🚀 {}\n".format(directory)
+                        content += "### 🙇‍♀️ {}\n".format(directory)
                 content += "| 문제번호 | 링크 |\n"
                 content += "| ----- | ----- |\n"
             directories.append(directory)
